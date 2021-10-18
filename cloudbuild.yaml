@@ -2,4 +2,4 @@ steps:
   - id: 'deploy'
     name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:351.0.0'
     entrypoint: 'bash'
-    args: ['./helloScript.sh']
+    args: ['./projectDeploy.sh']
