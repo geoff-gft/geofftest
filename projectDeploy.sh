@@ -12,7 +12,7 @@ echo "2"
 echo "3"
 # gcloud config set compute/zone europe-west1-b
 echo "4"
-# gcloud services enable cloudbilling.googleapis.com
+gcloud services enable cloudbilling.googleapis.com
 echo "5"
 sleep 20
 gcloud alpha billing projects link ${NEW_PROJECT} --billing-account 01A2F5-73127B-50AE5B
