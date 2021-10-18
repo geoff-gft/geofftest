@@ -8,7 +8,7 @@ NEW_PROJECT="faisal-cicd-21607"
 echo "1"
 # gcloud projects create ${NEW_PROJECT} --folder=398506523923
 echo "2"
-# gcloud config set project ${NEW_PROJECT}
+gcloud config set project ${NEW_PROJECT}
 echo "3"
 # gcloud config set compute/zone europe-west1-b
 echo "4"
