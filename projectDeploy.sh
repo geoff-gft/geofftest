@@ -1,7 +1,9 @@
 #!/bin/bash
 set -e
+uname -srm
+uname --kernel-name --kernel-release --machine
 
-sudo apt-get install unzip
+apt-get install unzip
 wget https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_linux_amd64.zip
 unzip terraform_0.13.1_linux_amd64.zip
 mv terraform /usr/local/bin/
