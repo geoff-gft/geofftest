@@ -4,12 +4,20 @@ uname -srm
 uname --kernel-name --kernel-release --machine
 
 apt-get update
+echo "upgrade"
 apt-get upgrade
+echo "install unzip"
 apt-get install unzip
+echo "Install wget"
 install wget
 
+echo "dl"
 wget https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_linux_amd64.zip
+
+echo "unzip"
 unzip terraform_0.13.1_linux_amd64.zip
+
+echo "mv"
 mv terraform /usr/local/bin/
 terraform --version
 
