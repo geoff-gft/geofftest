@@ -3,11 +3,11 @@ set -e
 uname -srm
 uname --kernel-name --kernel-release --machine
 
-apt-get update
+apt-get update -y
 echo "upgrade"
-apt-get upgrade
+apt-get upgrade -y
 echo "install unzip"
-apt-get install unzip
+apt-get install unzip -y
 echo "Install wget"
 install wget
 
